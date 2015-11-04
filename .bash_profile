@@ -76,7 +76,7 @@ alias gd='git diff <from>^ <from>'
 alias gs='git diff-tree --name-only -r <from>..<to>'
 alias tags='rm -rf TAGS; find . -name "*.js" | xargs ctags -a -e -f TAGS ;'
 alias pi='ssh pi@192.168.0.5'
-alias jsinit='git clone git@github.com:benzitohhh/js-template.git; echo "Remember to... git remote rm origin"'
+alias jsinit='git clone git@github.com:benzitohhh/js-template.git; cd js-template; git remote rm origin; npm install; echo "To kick off the watch process: npm start"'
 
 # Cipher
 alias playlocalstubs='cd ~/Desktop/cipher/frontend; ./debugPlay.sh -Ddebug.useStubs=true;'
