@@ -15,4 +15,4 @@
 
 --ignore-dir=uploads
 --ignore-dir=node_modules
-
+--ignore-dir=build

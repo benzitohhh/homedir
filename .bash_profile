@@ -27,10 +27,13 @@ export PATH=$PATH:$GRADLE_HOME/bin
 
 # java
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_22-b04-307.jdk/Contents/Home
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home
+
+
 
 # play framework
-export PATH=$PATH:/usr/local/playframework/play-2.2.1
+export PATH=$PATH:/usr/local/playframework/play-2.2.6
 
 # git autocomplete
 source ~/git-completion.bash
@@ -74,3 +77,6 @@ alias gs='git diff-tree --name-only -r <from>..<to>'
 alias tags='rm -rf TAGS; find . -name "*.js" | xargs ctags -a -e -f TAGS ;'
 alias pi='ssh pi@192.168.0.5'
 alias jsinit='git clone git@github.com:benzitohhh/js-template.git; echo "Remember to... git remote rm origin"'
+
+# Cipher
+alias playlocalstubs='cd ~/Desktop/cipher/frontend; ./debugPlay.sh -Ddebug.useStubs=true;'
