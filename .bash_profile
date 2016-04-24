@@ -43,6 +43,9 @@ export PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 # python autocomplete
 export PYTHONSTARTUP=$HOME/.pythonrc.py
 
+# python virtualenvwrapper
+source /usr/local/bin/virtualenvwrapper.sh
+
 # python path
 #export PYTHONPATH=$HOME/Desktop/:~/lib/python2.6/site-packages
 
