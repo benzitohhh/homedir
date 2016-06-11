@@ -38,13 +38,10 @@ source ~/git-completion.bash
 
 # Python executable
 #export PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
-
-# python autocomplete
-export PYTHONSTARTUP=$HOME/.pythonrc.py
+#export PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 
 # python virtualenvwrapper
-source /usr/local/bin/virtualenvwrapper.sh
+#source /usr/local/bin/virtualenvwrapper.sh
 
 # python path
 #export PYTHONPATH=$HOME/Desktop/:~/lib/python2.6/site-packages
@@ -68,8 +65,8 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # emacs
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
-alias em="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
-#alias em="/usr/bin/emacs -q"
+#alias em="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+alias em="/usr/bin/emacs -q"
 
 # ctags
 #alias ctscheme="rm -rf TAGS; find . -name \"*.scm\" | xargs ctags -a -e -f TAGS"
@@ -85,3 +82,13 @@ alias lp='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %
 
 # Cipher
 alias playlocalstubs='cd ~/Desktop/cipher/frontend; ./debugPlay.sh -Ddebug.useStubs=true;'
+
+# Setting PATH for Python 3.5
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PATH
+
+# Setting PATH for Python 3.5
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PATH
